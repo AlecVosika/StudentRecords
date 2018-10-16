@@ -12,16 +12,7 @@ public class MainController {
 		
 		MyData = aTextConnection.getFile("C:\\CodeRepository\\", "Records.csv");
 		String[] aStudent = new String[4];
-		/*
-		for(String s : MyData) {
-			aStudent = s.split(",");
-					
-			aView.print("id: "+ aStudent[0] + " ||" +  " FirstName: " +
-			aStudent[1] + " ||" + " LastName: " + aStudent[2] + " ||" + 
-			" Commuter: " + aStudent[3]);
-		}
-		*/
-		
+
 		for(String s : MyData) {
 			aStudent = s.split(",");
 			System.out.printf("%3s %-3s %-1s %-10s %-10s %n "
