@@ -25,7 +25,7 @@ public class MainController {
 		System.out.println("...Done");
 	}
 	
-	
+	// Old examples
 	/*
 	public static void main(String[] args) {
 
@@ -88,7 +88,6 @@ public class MainController {
 		aStudent9.setIsCommuter(false);
 		
 		
-		
 		aView.print("Now inserting students, duplicates allowed");
 		aView.print(anArray.insertStudent(aStudent1));
 		aView.print(anArray.insertStudent(aStudent2));	
@@ -133,9 +132,7 @@ public class MainController {
 		aView.print("\n");
 		aView.print(anArray.toString());
 	
-	
-		
-	
+
 		// Student stack results
 		aView.print("Now inserting students in order, no duplicates allowed");
 		aStack.push(aStudent1);
